@@ -8,7 +8,7 @@ import Link from "next/link";
 const problemPlatforms = [
   {
     name: "LeetCode",
-    image: "images/leetcode.png",
+    image: "images/lc.png",
     link: "https://leetcode.com/u/HardCoder404/",
   },
   {
