@@ -82,3 +82,10 @@ export const SOCIAL_LINKS = {
   LINKEDIN: "https://www.linkedin.com/in/prince404/",
   TWITTER: "https://x.com/praj81232",
 };
+
+export const ProblemSolvedPlatform = {
+  Codeforces: "https://codeforces.com/profile/praj81232",
+  LeetCode: "https://leetcode.com/praj81232/",
+  HackerRank: "https://www.hackerrank.com/praj81232",
+  CodeChef: "https://www.codechef.com/users/praj81232",
+};

@@ -5,7 +5,7 @@ import { ImHome } from 'react-icons/im'
 import { HiIdentification } from 'react-icons/hi'
 import NavItem from './NavItem'
 import DrawerLayout from '../DrawerLayout'
-import { FolderOpenDot } from "lucide-react"
+import { BugOff, FolderOpenDot } from "lucide-react"
 
 
 const Nav = ({ setIsOpen, isOpen }) => {
@@ -20,6 +20,7 @@ const Nav = ({ setIsOpen, isOpen }) => {
                     <NavItem setIsOpen={setIsOpen} NavRoute={'/contact'} NavIcon={<FaHandshake />} NavText={'Contact'} />
                     <NavItem setIsOpen={setIsOpen} NavRoute={'/background'} NavIcon={<HiIdentification />} NavText={'Background'} />
                     <NavItem setIsOpen={setIsOpen} NavRoute={'/portfolio'} NavIcon={<FolderOpenDot size={15} />} NavText={'Projects'} />
+                    <NavItem setIsOpen={setIsOpen} NavRoute={'/problemSolvingSkill'} NavIcon={<BugOff size={15} />} NavText={'Problem Solving'} />
                 </div>
             </div>
         </DrawerLayout>

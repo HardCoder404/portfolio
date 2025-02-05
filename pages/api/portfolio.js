@@ -25,7 +25,7 @@ const portfolio = [
     ],
   },
   {
-    id: 0,
+    id: 1,
     projectName: "Astra – AI Website Builder",
     url: "https://astra-agency.vercel.app/",
     image: "projects/Astra.png",
@@ -53,7 +53,7 @@ const portfolio = [
     ],
   },
   {
-    id: 0,
+    id: 2,
     projectName: "JMM Technologies",
     url: "https://jmm.ltd/",
     image: "projects/jmmTech.png",

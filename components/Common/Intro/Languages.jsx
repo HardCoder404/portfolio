@@ -36,9 +36,57 @@ const Languages = () => {
         <span className="text-Snow text-xs font-bold">
           Programming Languages
         </span>
-        {/* Scrollable Wrapper */}
-        <div className="w-full overflow-x-auto no-scrollbar">
-          <div className="flex w-max space-x-3">
+        {/* Scrollable Wrapper with Animation */}
+        <div className="w-full overflow-hidden">
+          <div className="flex w-max animate-scroll space-x-3">
+            {/* First Batch of Languages */}
+            <div className="flex flex-col items-center justify-center gap-y-2 min-w-[90px]">
+              <Progress
+                strokeColor="#1fdf64"
+                type="circle"
+                percent={typescript}
+                size={75}
+              />
+              <span className="text-xs font-bold text-Snow">TypeScript</span>
+            </div>
+            <div className="flex flex-col items-center justify-center gap-y-2 min-w-[90px]">
+              <Progress
+                strokeColor="#1fdf64"
+                type="circle"
+                percent={javascript}
+                size={75}
+              />
+              <span className="text-xs font-bold text-Snow">JavaScript</span>
+            </div>
+            <div className="flex flex-col items-center justify-center gap-y-2 min-w-[90px]">
+              <Progress
+                strokeColor="#1fdf64"
+                type="circle"
+                percent={sql}
+                size={75}
+              />
+              <span className="text-xs font-bold text-Snow">SQL</span>
+            </div>
+            <div className="flex flex-col items-center justify-center gap-y-2 min-w-[90px]">
+              <Progress
+                strokeColor="#1fdf64"
+                type="circle"
+                percent={cCplusplus}
+                size={75}
+              />
+              <span className="text-xs font-bold text-Snow">C/C++</span>
+            </div>
+            <div className="flex flex-col items-center justify-center gap-y-2 min-w-[90px]">
+              <Progress
+                strokeColor="#1fdf64"
+                type="circle"
+                percent={python}
+                size={75}
+              />
+              <span className="text-xs font-bold text-Snow">Python</span>
+            </div>
+
+            {/* Cloned Batch of Languages */}
             <div className="flex flex-col items-center justify-center gap-y-2 min-w-[90px]">
               <Progress
                 strokeColor="#1fdf64"

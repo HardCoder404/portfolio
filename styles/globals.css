@@ -47,6 +47,23 @@ body {
       src: url(/public/fonts/Circular-Bold.otf);
     }
   }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* This will ensure the element moves half its total width */
+  }
+}
+
+.animate-scroll {
+  animation: scroll 8s linear infinite; /* Set to a longer time to make it smoother */
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
     @variants responsive {
       /* Hide scrollbar for Chrome, Safari and Opera */
       .no-scrollbar::-webkit-scrollbar {
