@@ -15,12 +15,12 @@ const Banner = () => {
                             <div className="">
                                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
                                     <span>{"<"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>
-                                        {">"} <span className="text-Snow sm:text-xl xl:text-2xl font-bold"> I am a  <span className="inline-block">
+                                        {">"} <span className="text-Snow sm:text-xl xl:text-2xl font-bold"> Building  <span className="inline-block">
                                             <Typewriter
                                                 options={{
                                                     strings:
                                                         [
-                                                            'Software Developer'],
+                                                            'Ideas into Reality'],
                                                     autoStart: true,
                                                     loop: true,
                                                 }}
