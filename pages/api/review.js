@@ -5,15 +5,14 @@ const review = [
     clientLocation: "Egypt",
     clientSource: "Fiverr",
     clientReview:
-      "It is always nice to work with him. The work is finished quickly and he does more than is asked of him. It is also clear that he has a lot of knowledge of the work he does. I look forward to our next collaboration.",
-  },
+      "It’s always a pleasure working with him. He completes tasks efficiently and goes above and beyond expectations. His deep knowledge of his work is evident, and I look forward to our next collaboration."  },
   {
     id: 2,
     clientName: "Melissabrown255",
     clientLocation: "United States",
     clientSource: "Fiverr",
     clientReview:
-      "He is very good with communication and experienced website developer, great experience to work with him. ",
+      "He is an excellent communicator and an experienced web developer. It was a great experience working with him. ",
   },
   {
     id: 3,
@@ -21,7 +20,7 @@ const review = [
     clientLocation: "Germany",
     clientSource: "Fiverr",
     clientReview:
-      "Prince is extremely knowledgeable and helpful. He knows in and out of web app development . His understanding of different technologies and frameworks in the space is also very impressive. I hope I get the chance to work with him again",
+      "Prince is extremely knowledgeable and helpful. He has an in-depth understanding of web app development and a strong grasp of various technologies and frameworks. His expertise is truly impressive, and I hope to have the opportunity to work with him again.",
   },
   {
     id: 4,
@@ -29,7 +28,7 @@ const review = [
     clientLocation: "France",
     clientSource: "Fiverr",
     clientReview:
-      "I have worked with Prince and he is very professional and excellent software  developer. I admire his speed of development and quality of work when given an assignment.",
+      "I have worked with Prince, and he is a highly professional and excellent software developer. I admire his development speed and the quality of his work when given an assignment.",
   },
 ];
 export default function handler(req, res) {
