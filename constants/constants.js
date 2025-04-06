@@ -1,8 +1,7 @@
 export const NAME = "Prince Raj";
 
 export const DESIGNATION = `Full Stack Developer | Open Source Contributor | Building solutions`;
-export const MAP_AVTAR =
-  "https://img.freepik.com/premium-photo/fun-japanese-cartoon-avatar-boy-with-glasses-showcasing-unique-style_1283595-14248.jpg?w=360";
+export const MAP_AVTAR = "/images/mapPin.avif";
 export const DETAILS = {
   Residence: "Sikandrabad",
   City: "Peshawar",

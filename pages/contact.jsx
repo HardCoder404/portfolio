@@ -12,6 +12,7 @@ import Link from "next/link";
 import { toast, ToastContainer } from "react-toastify";
 import emailjs from "@emailjs/browser";
 import "react-toastify/dist/ReactToastify.css";
+import Image from "next/image";
 
 const Contact = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -98,7 +99,9 @@ const Contact = () => {
             </div>
             {/* Map section  */}
             <div className="card_stylings relative w-full md:w-1/2 p-5 md:p-2 lg:p-4 flex flex-col gap-y-4">
-              <img
+              <Image
+                width={48}
+                height={48}
                 src={MAP_AVTAR}
                 alt="map-avatar"
                 className="w-12 h-12 rounded-full absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10"

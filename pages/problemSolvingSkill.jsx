@@ -8,17 +8,17 @@ import Link from "next/link";
 const problemPlatforms = [
   {
     name: "LeetCode",
-    image: "images/lc.png",
+    image: "/images/lc.png",
     link: "https://leetcode.com/u/HardCoder404/",
   },
   {
     name: "GeeksforGeeks",
-    image: "images/gfg.png",
+    image: "/images/gfg.png",
     link: "https://www.geeksforgeeks.org/user/dracula935/",
   },
   {
     name: "Coding Ninjas",
-    image: "images/cn.png",
+    image: "/images/cn.png",
     link: "https://www.naukri.com/code360/profile/dracula935",
   },
 ];
