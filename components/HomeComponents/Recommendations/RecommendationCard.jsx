@@ -1,20 +1,39 @@
-import React from 'react'
-import CardLayout from '../../Common/CardLayout'
-import Image from 'next/image'
+import React from "react";
+import CardLayout from "../../Common/CardLayout";
+import Image from "next/image";
 
 const RecommendationCard = ({ data }) => {
-    return (
-        <CardLayout>
-            <div className="p-8 h-full relative card_stylings transition">
-                <Image src={data?.image}  width={64} height={64} className="absolute z-10 right-10 -top-5 border-Green w-16 h-16  border-[3px] rounded-full m-0" />
-                <div className=" text-Snow underline italic">
-                    <a href={data?.linkednURL} target="_blank" rel="noreferrer">{data?.name}</a>
-                </div>
-                <div className="text-xs text-LightGray italic mt-1">{data?.designation}</div>
-                <div className="text-sm mt-2 text-LightGray font-normal ">{data?.view}</div>
-            </div>
-        </CardLayout>
-    )
-}
+  return (
+    <CardLayout>
+      <div className="p-8 h-full relative card_stylings transition">
+        <Image
+          src={data?.image}
+          width={64}
+          height={64}
+          className="absolute z-10 right-10 -top-5 border-Green w-16 h-16  border-[3px] rounded-full m-0"
+        />
+        <div className=" text-Snow underline flex items-start gap-2 italic">
+          <a href={data?.linkednURL} target="_blank" rel="noreferrer">
+            {data?.name}
+          </a>
+          <div className="no-underline">
+            <img
+              src="/images/linkedin.png"
+              alt="linkedin"
+              className="w-5 h-5"
+            />
+          </div>
+        </div>
 
-export default RecommendationCard
+        <div className="text-xs text-LightGray italic mt-1">
+          {data?.designation}
+        </div>
+        <div className="text-sm mt-2 text-LightGray font-normal ">
+          {data?.view}
+        </div>
+      </div>
+    </CardLayout>
+  );
+};
+
+export default RecommendationCard;

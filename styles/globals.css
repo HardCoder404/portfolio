@@ -143,9 +143,18 @@ body {
 .userIcon:focus-within #icon {
   color: #1fdf64; /* Change the icon color when the input is focused */
 }
+.userIcon #icon {
+  color: #9ca3af; /* Tailwind gray-400 */
+}
 .mailIcon:focus-within #icon {
   color: #1fdf64; /* Change the icon color when the input is focused */
 }
+.mailIcon #icon {
+  color: #9ca3af; /* Tailwind gray-400 */
+}
 .textIcon:focus-within #icon {
   color: #1fdf64; /* Change the icon color when the input is focused */
+}
+.textIcon #icon {
+  color: #9ca3af; /* Tailwind gray-400 */
 }

@@ -7,13 +7,13 @@ import Tools from './Tools';
 import Skills from './Skills';
 import Image from 'next/image';
 import { NAME, DESIGNATION, SOCIAL_LINKS } from '../../../constants/constants';
-import Prince from '../../../public/images/prince2.jpg';
+import Prince from "../../../public/images/profilePic.jpeg";
 import CourseWork from './CourseWork';
 import { ShieldCheck } from 'lucide-react';
 
 const Intro = () => {
   return (
-    <>
+    <>  
       {/* fixed at top */}
       <Link href={"/"}>
         <div className="headerr z-50 absolute bg-MidNightBlack backdrop-blur-sm inset-y-0 h-48 top-0 flex items-center justify-center w-full flex-col px-4 gap-y-4">

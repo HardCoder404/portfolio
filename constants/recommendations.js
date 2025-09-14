@@ -1,0 +1,51 @@
+export const RecommendationCardData = [
+  {
+    id: 0,
+    name: "Abhijit Agarwal",
+    image: "/images/abhijeet.jpeg",
+    designation:
+      "Building Xipper | Empowering Hotels Through Technology and Innovation",
+    view: "Hey everyone! I want to take a moment to recommend Prince Raj for any React.js or Next.js opportunities. I had the pleasure of working with him on multiple projects, where he showcased a strong understanding of React.js and Next.js concepts while delivering high-quality code. He consistently demonstrated a willingness to learn and grow, and his enthusiasm for tackling new challenges was truly inspiring. Prince is a reliable and dedicated team member who would be a great asset to any React.js/Next.js team. Highly recommended!",
+    linkednURL: "https://www.linkedin.com/in/agarwalabhijit/",
+  },
+  {
+    id: 1,
+    name: "Sathya Sachi Paira",
+    image: "/images/sathya.jpeg",
+    designation: "Chief Executive Officer @ SecWebXperts | IT Solutions Expert",
+    view: "I had the privilege of working alongside Prince on multiple industrial projects, and I must say his talent and work ethic truly stood out. Recently, we were both part of the dynamic team at SecWebXperts, where Prince's professionalism and attention to detail were remarkable. I wholeheartedly endorse Prince for any opportunity that requires a highly skilled and dedicated individual.",
+    linkednURL: "https://www.linkedin.com/in/sathya-sachi-paira32281178/",
+  },
+  {
+    id: 2,
+    name: "Ayush Kumar Tiwari",
+    image: "/images/ayush.jpeg",
+    designation: "Software Engineer | Building D4 Community",
+    view: "I wholeheartedly recommend Prince as a talented React frontend developer with an exceptional eye for responsiveness. His proficiency in Node.js further enhances his capabilities, enabling him to build robust and scalable applications. Prince’s attention to detail, problem-solving skills, and commitment to delivering outstanding results make him a valuable asset to any development team.",
+    linkednURL: "https://www.linkedin.com/in/itsayu/",
+  },
+  {
+    id: 3,
+    name: "Deepanshu Kamboj",
+    image: "/images/deepanshu.jpeg",
+    designation: "Full Stack Developer @Devtown",
+    view: "I had the pleasure of having Prince as a frontend intern on my team. He did a great job during his time with us, especially in building clean and user-friendly web screens for our project at Torus. Prince is hardworking, quick to learn, and always delivered his tasks on time. It was great working with him, and I’m confident he’ll be a strong asset wherever he goes next.",
+    linkednURL: "https://www.linkedin.com/in/deepanshu-kamboj-5aa74019a/",
+  },
+  {
+    id: 4,
+    name: "Harshit Bafna",
+    image: "/images/harshit.png",
+    designation: "Backend Intern @Akal Infotech | Full Stack Web Developer",
+    view: "I’ve had the pleasure of working with Prince Raj, and I can confidently say he’s a solid frontend developer. He’s quick to understand requirements, writes clean and efficient code, and always brings a positive attitude to the team. Whether it's tackling tricky UI bugs or building smooth user interfaces, Prince handles it all with focus and care. Any team would be lucky to have him on board.",
+    linkednURL: "https://in.linkedin.com/in/harshit-bafna-207958251",
+  },
+  {
+    id: 5,
+    name: "Shyan Roy Choudhury",
+    image: "/images/shyan.jpg",
+    designation: "SDE‑2 @ Publiq Studio | Building scalable applications",
+    view: "Had the pleasure of working with Prince during his internship at Xipper. Quick to learn, made essential contribution with developing the MVP, and showed strong initiative throughout. A reliable and thoughtful developer anyday!",
+    linkednURL: "https://in.linkedin.com/in/shyan-roy-choudhury-79a860198",
+  },
+];

@@ -1,4 +1,4 @@
-const review = [
+export const ReviewsData = [
   {
     id: 0,
     clientName: "Matthew",
@@ -31,6 +31,3 @@ const review = [
       "I have worked with Prince, and he is a highly professional and excellent software developer. I admire his development speed and the quality of his work when given an assignment.",
   },
 ];
-export default function handler(req, res) {
-  res.status(200).json(review);
-}

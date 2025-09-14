@@ -1,7 +1,7 @@
 import Typewriter from "typewriter-effect";
 import BannerLayout from "../Common/BannerLayout";
-import { Link } from "react-scroll";
 import Image from "next/image";
+import NextLink from "next/link";
 
 const Banner = () => {
   return (
@@ -12,7 +12,7 @@ const Banner = () => {
             <div className="">
               <div className="">
                 <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">
-                  Hello, Check This Out!
+                  Scaling Smart Business Growth
                 </h1>
               </div>
               <div className="">
@@ -22,44 +22,41 @@ const Banner = () => {
                     <span className="text-Green sm:text-base xl:text-lg font-bold">
                       div
                     </span>
-                    {">"}{" "}
+                    {">"}
                     <span className="text-Snow sm:text-xl xl:text-2xl font-bold">
-                      {" "}
-                      Building{" "}
+                      From Code into{" "}
                       <span className="inline-block">
                         <Typewriter
                           options={{
-                            strings: ["Ideas into Reality"],
+                            strings: ["Products, Clients & Business"],
                             autoStart: true,
                             loop: true,
                           }}
                         />
                       </span>
-                    </span>{" "}
+                    </span>
                     {"</"}
                     <span className="text-Green sm:text-base xl:text-lg font-bold">
                       div
                     </span>
-                    {">"}{" "}
+                    {">"}
                   </span>
                 </div>
               </div>
-              <Link
-                to="intro"
-                spy={true}
-                smooth={true}
-                duration={500}
-                offset={-50}
-                className="button"
+              <NextLink
+                href="https://www.linkedin.com/in/prince404/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button cursor-pointer"
               >
                 Explore
-              </Link>
+              </NextLink>
             </div>
             <div className="w-48 h-52 relative hidden md:block">
               <Image
                 height={208}
                 width={192}
-                className="absolute top-8 w-full h-full"
+                className="absolute top-8 right-[-30px] w-full h-full"
                 src="/images/emoji.png"
                 alt="emoji"
               />

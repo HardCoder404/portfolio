@@ -1,4 +1,4 @@
-const expertise = [
+export const ExpertiseData = [
   {
     id: 0,
     title: "Full Stack Development",
@@ -25,7 +25,3 @@ const expertise = [
     desc: "Open Source is the future. I usually take some time on weekend and contribute into opensource project. It gives me opportunity to learn from best developer's practices and also gives me a chance to help others and contribute into the community for the good.",
   },
 ];
-
-export default function handler(req, res) {
-    res.status(200).json(expertise)
-}

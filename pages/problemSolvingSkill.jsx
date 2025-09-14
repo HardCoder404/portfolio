@@ -23,33 +23,42 @@ const problemPlatforms = [
   },
 ];
 
-
 const ProblemSolvingSkill = () => {
   return (
-    <BannerLayout>
-      <div className="px-8 my-6">
-        {problemPlatforms.map((platform, index) => (
-          <div key={index} className="w-full mb-8">
-            {" "}
-            <h1 className="text-xl mb-2 text-white italic font-semibold flex items-center">
-              {platform.name}
-              <Link
-                href={platform.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <SquareArrowOutUpRight
-                  className="ml-2 cursor-pointer hover:text-gray-300 transition"
-                  size={21}
+    <div className="problemSolving-Page h-full flex flex-col">
+      {/* Scrollable content */}
+      <div className="flex-1 overflow-auto no-scrollbar">
+        <BannerLayout>
+          <div className="px-4 my-6">
+            {problemPlatforms.map((platform, index) => (
+              <div key={index} className="w-full mb-8">
+                {" "}
+                <h1 className="text-xl mb-2 text-white italic font-semibold flex items-center">
+                  {platform.name}
+                  <Link
+                    href={platform.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <SquareArrowOutUpRight
+                      className="ml-2 cursor-pointer hover:text-gray-300 transition"
+                      size={21}
+                    />
+                  </Link>
+                </h1>
+                <ProblemPlatformCard
+                  image={platform.image}
+                  name={platform.name}
                 />
-              </Link>
-            </h1>
-            <ProblemPlatformCard image={platform.image} name={platform.name} />
+              </div>
+            ))}
           </div>
-        ))}
+        </BannerLayout>
       </div>
+
+      {/* Fixed footer at bottom */}
       <Footer />
-    </BannerLayout>
+    </div>
   );
 };
 

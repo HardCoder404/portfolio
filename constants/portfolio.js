@@ -1,4 +1,4 @@
-const portfolio = [
+export const PortfolioData = [
   {
     id: 0,
     projectName: "SafeReport - Crime Reporting Platform",
@@ -84,6 +84,3 @@ const portfolio = [
     ],
   },
 ];
-export default function handler(req, res) {
-    res.status(200).json(portfolio)
-}

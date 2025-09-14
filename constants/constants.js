@@ -15,22 +15,48 @@ export const COURSE_WORK = [
   "Data Structures and Algorithms",
 ];
 
-export const SKILLS = [
+export const BADGES = [
   {
-    title: "MERN Stack Developer",
-    level: "85%",
+    image: "/badges/anual.gif",
   },
   {
-    title: "NEXT.js Developer",
-    level: "94%",
+    image: "/badges/200days.gif",
   },
   {
-    title: "Backend Developer",
-    level: "74%",
+    image: "/badges/100days.gif",
   },
   {
-    title: "Frontend Developer",
-    level: "97%",
+    image: "/badges/100days2.gif",
+  },
+  {
+    image: "/badges/50days.gif",
+  },
+  {
+    image: "/badges/50days2.gif",
+  },
+  {
+    image: "/badges/dec.gif",
+  },
+  {
+    image: "/badges/nov.gif",
+  },
+  {
+    image: "/badges/oct.gif",
+  },
+  {
+    image: "/badges/june.gif",
+  },
+  {
+    image: "/badges/may.gif",
+  },
+  {
+    image: "/badges/april.gif",
+  },
+  {
+    image: "/badges/march.gif",
+  },
+  {
+    image: "/badges/jan.gif",
   },
 ];
 
@@ -38,12 +64,16 @@ export const TECH_STACK = [
   "NextJS",
   "ReactJS",
   "AWS",
+  "Jest",
+  "Golang",
   "React Native",
   "REST API",
   "Redis",
+  "Prisma",
   "Angular",
   "WebSocket",
   "Firebase",
+  "GraphQL",
   "PostgreSQL",
   "S3",
   "NodeJS",
@@ -54,6 +84,7 @@ export const TECH_STACK = [
   "Redux/Redux-toolkit",
   "CSS",
   "MySQL",
+  "ESLint",
   "Postman",
   "shadcn",
   "Tailwind CSS",
@@ -79,7 +110,7 @@ export const CONTACTS = {
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/HardCoder404",
   LINKEDIN: "https://www.linkedin.com/in/prince404/",
-  TWITTER: "https://x.com/praj81232",
+  TWITTER: "https://x.com/princeraj404",
 };
 
 export const ProblemSolvedPlatform = {
@@ -88,3 +119,34 @@ export const ProblemSolvedPlatform = {
   HackerRank: "https://www.hackerrank.com/praj81232",
   CodeChef: "https://www.codechef.com/users/praj81232",
 };
+
+export const LanguagesData = [
+  {
+    name: "TypeScript",
+    logo: "/lang/ts.png",
+  },
+  {
+    name: "JavaScript",
+    logo: "/lang/js.webp",
+  },
+  {
+    name: "Java",
+    logo: "/lang/java.svg",
+  },
+  {
+    name: "Python",
+    logo: "/lang/py.svg",
+  },
+  {
+    name: "C/C++",
+    logo: "/lang/c++.svg",
+  },
+  {
+    name: "SQL",
+    logo: "/lang/sql.png",
+  },
+  {
+    name: "Golang",
+    logo: "/lang/go.svg",
+  },
+];
