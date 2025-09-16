@@ -75,7 +75,7 @@ export const BackgroundData = [
         title: "Cyberoi Systems",
         role: "Frontend Developer",
         url: "https://www.thefragment.app/",
-        image: "https://media.licdn.com/dms/image/v2/C4E0BAQEsOIVb3ef3vQ/company-logo_200_200/company-logo_200_200/0/1630614035510?e=1761177600&v=beta&t=QyXPNFfxXNckczH0yaUzgoCf5q6VWF_gx78wWj1syjQ",
+        image: "/images/cb.jpg",
         desc: `• Built responsive and user-friendly web pages using React.js and Material-UI, improving overall UI consistency.\n• Integrated ElasticSearch API on the frontend to display restaurants based on user queries and locations.
     • Implemented Google Maps API to detect and display the user’s current location for nearby restaurant suggestions.\n
     • Gained exposure to AWS services, serverless technologies, and CI/CD pipelines with Jenkins, enhancing understanding of modern deployment practices.\n
